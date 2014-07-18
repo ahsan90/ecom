@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2024885216">
+  <component name="DataSourceManagerImpl" format="xml" hash="3359678722">
     <data-source source="LOCAL" name="Rails depot: development" uuid="a49a6146-73b2-4556-95d7-3279790336f8">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Sites\depot\db\development.sqlite3</jdbc-url>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/db/development.sqlite3</jdbc-url>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfcedf9b</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails depot: test" uuid="dccc015b-ffe7-4c72-b5e7-f0a437817f9e">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Sites\depot\db\test.sqlite3</jdbc-url>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/db/test.sqlite3</jdbc-url>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfcedf9b</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails depot: production" uuid="b46595e7-30f7-4181-aae0-e34ef3c6eb63">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/db/production.sqlite3</jdbc-url>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfcedf9b</user-password>
       <libraries />
     </data-source>
   </component>
